@@ -1,8 +1,8 @@
-# 🚀 Neovim Code Assistant
+# Neovim Code Assistant
 
 Transform your Neovim into a powerful AI-powered coding assistant, similar to Cursor but right inside your favorite editor! This plugin brings intelligent code generation directly to Neovim using Google's Gemini AI.
 
-## ✨ Features
+## Features
 
 - **AI-Powered Code Generation**: Generate code by simply describing what you want
 - **Seamless Neovim Integration**: Works natively within your Neovim workflow
@@ -10,13 +10,13 @@ Transform your Neovim into a powerful AI-powered coding assistant, similar to Cu
 - **Simple Command Interface**: Just type `:Code` and describe your needs
 - **Context-Aware**: Understands your current buffer and project context
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Neovim 0.8+ 
 - A plugin manager (Packer, Lazy.nvim, vim-plug, etc.)
 - Google Gemini API key
 
-## 🔧 Installation
+## Installation
 
 ### Step 1: Install a Plugin Manager (if you don't have one)
 
@@ -91,7 +91,7 @@ source ~/.zshrc
 source ~/.bashrc
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Basic Usage
 
@@ -119,7 +119,7 @@ source ~/.bashrc
 - **Multi-line Requests**: Describe complex requirements in natural language
 - **Code Modification**: Ask to modify or improve existing code in your buffer
 
-## ⚙️ Configuration
+## Configuration
 
 You can customize the plugin behavior in your Neovim configuration:
 
@@ -132,7 +132,7 @@ require('nvim-code').setup({
 })
 ```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -150,15 +150,15 @@ require('nvim-code').setup({
 - Verify your API key is valid and has quota remaining
 - Check Neovim's `:messages` for error details
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Google Gemini AI for powering the code generation
 - The Neovim community for the amazing editor
