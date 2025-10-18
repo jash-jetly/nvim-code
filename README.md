@@ -37,9 +37,9 @@ Add to your `~/.config/nvim/lua/plugins.lua` or `~/.config/nvim/init.lua`:
 
 ```lua
 {
-  'your-username/nvim-code-package',
+  'jash-jetly/nvim-code',
   config = function()
-    require('nvim-code-package').setup()
+    require('nvim-code').setup()
   end
 }
 ```
@@ -49,9 +49,9 @@ Add to your `~/.config/nvim/lua/plugins.lua`:
 
 ```lua
 use {
-  'your-username/nvim-code-package',
+  'jash-jetly/nvim-code',
   config = function()
-    require('nvim-code-package').setup()
+    require('nvim-code').setup()
   end
 }
 ```
@@ -60,7 +60,7 @@ use {
 Add to your `~/.config/nvim/init.vim`:
 
 ```vim
-Plug 'your-username/nvim-code-package'
+Plug 'jash-jetly/nvim-code'
 ```
 
 ### Step 3: Set Up Gemini API Key
@@ -124,7 +124,7 @@ source ~/.bashrc
 You can customize the plugin behavior in your Neovim configuration:
 
 ```lua
-require('nvim-code-package').setup({
+require('nvim-code').setup({
   -- Custom configuration options will go here
   model = "gemini-pro",
   max_tokens = 2048,
