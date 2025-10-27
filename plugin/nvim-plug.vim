@@ -4,7 +4,7 @@
 sign define GeminiChanged text=✱ texthl=DiffChange linehl=NONE
 
 
-command! -nargs=+ Code call GeminiSmartApply(<f-args>)
+command! -nargs=+ Jash call GeminiSmartApply(<f-args>)
 
 function! GeminiSmartApply(...) abort
   " Combine prompt args
